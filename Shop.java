@@ -16,7 +16,7 @@ public static String[] itemName(String [] productName)
 
 public static double [] itemPrice (String [] items)
 {
-	for (int i =0; i< items ; i++){
+	for (int i =0; i< items.length ; i++){
 		out.print("Enter the price of product " + i + ": ");
 		itemPrice[i]=kb.next();
 	}
