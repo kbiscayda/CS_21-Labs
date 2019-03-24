@@ -28,7 +28,7 @@ public static itemSetup
   {
   int function;
   String [] products;
-  i
+
 		Scanner kb = new Scanner(in);
     out.println("This program supports 4 functions: ");
     out.println("1. Setup Shop");
