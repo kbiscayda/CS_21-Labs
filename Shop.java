@@ -8,13 +8,13 @@ public static String[] itemName(String [] productName)
 {
 	for(int i = 0; i<products.length; i++)
 	{
-		out.print("Enter the name of product " + i " : ");
+		out.print("Enter the name of product " + i + " : ");
 		productName[i] = kb.Next();
 	}
 	return productName;
 }
 
-public static []double itemPrice (String [] items)
+public static double [] itemPrice (String [] items)
 {
 	for (int i =0; i< items ; i++){
 		out.print("Enter the price of product " + i + ": ");
@@ -23,14 +23,14 @@ public static []double itemPrice (String [] items)
 	return void;
 }
 
-public static []double itemDiscount(String [] items)
+public static double [] itemDiscount(String [] items)
 {
 	out.print("Please enter the number of packages ('x') to qualify for Special Discount (buy 'x' get 1 free): ");
 	Discount = kb.nextDouble();
 	return
 }
 
-public static []double moneyDiscount(String [] items)
+public static double [] moneyDiscount(String [] items)
 {
 	out.print("Enter the dollar amount to qualify for Additional Discount (or 0 if none offered): ");
 	moneyDiscount = kb.nextDouble();// cus it is money value boohoo
