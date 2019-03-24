@@ -20,14 +20,14 @@ public static double [] itemPrice (String [] items)
 		out.print("Enter the price of product " + i + ": ");
 		itemPrice[i]=kb.next();
 	}
-	return void;
+	return item;
 }
 
 public static double [] itemDiscount(String [] items)
 {
 	out.print("Please enter the number of packages ('x') to qualify for Special Discount (buy 'x' get 1 free): ");
 	Discount = kb.nextDouble();
-	return
+	return item;
 }
 
 public static double [] moneyDiscount(String [] items)
@@ -39,6 +39,7 @@ public static double [] moneyDiscount(String [] items)
 	if (rate > 0 && rate <= .5){
 
 	}
+	return item;
 
 }
 
@@ -60,7 +61,6 @@ public static double [] moneyDiscount(String [] items)
       products = new String [kb.nextInt()-1];
 			itemName(product);
 			itemPrice(product);
-			item
     }
     if(function == 2)
     {
@@ -78,3 +78,4 @@ public static double [] moneyDiscount(String [] items)
 
 
   }
+}
